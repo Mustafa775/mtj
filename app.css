@@ -4261,15 +4261,17 @@ p{font-size:1rem;line-height:1.5rem}}
   --main-text-color: #231f1e;
   --main-text-color-dark: #2b2d34;
   /* current */
-  --color-primary: #5cd5c4;
-  --color-primary: #414042;
-  --color-primary-d: #272628;
-  --color-primary-l: #676668;
-  --color-primary-reverse: #ff6767;
-  --color-text: #7c8082;
-  --bg-gray: rgba(198,199,206,0.10196);
-  --color-grey: #f5f7f9;
-  --color-light-grey: #eeeeee;
+   --font-main: 'PingARLT';
+            --color-primary: #0da5be;
+            --bg-primary: #fff;
+            --bg-secondary: #f8f8f8;
+            --bg-light: #fff;
+            --heading-color: #231f1e;
+            --description-color: #7A798A;
+            --color-primary-dark: #007f98;
+            --color-primary-light: #33cbe4;
+            --color-primary-reverse: #d9ffff;
+            --promo-color: rgba(255, 189, 12, 255);
   /* font-size */
   --font-sm: 0.8685714286rem;
   /* font-family: ; */
@@ -4288,9 +4290,12 @@ p{font-size:1rem;line-height:1.5rem}}
   --black-59: rgba(0,0,0,0.34902);
 }
 .dark {
-  --bg-light: #343444;
+  --color-primary: #0da5be;
   --bg-primary: #1F1F2C;
   --bg-secondary: #14141F;
+  --bg-light: #343444;
+  --heading-color: #fff;
+  --description-color: #7A798A;
   --bg-tertiary: #030303;
   --custom-text-primary: #EBEBEB;
   --tw-text-opacity:1;
@@ -9337,3 +9342,44 @@ salla-product-options [type=checkbox], salla-product-options [type=radio]{backgr
 .rtl\:lg\:pr-20:where([dir="rtl"], [dir="rtl"] *){padding-right:5rem}}
 @media (min-width: 480px){
 .rtl\:xs\:left-5:where([dir="rtl"], [dir="rtl"] *){left:1.25rem}}
+
+
+
+.owl-nav{
+  position: absolute;
+  left: 0;
+  top:-50px;
+  margin: 20px !important;
+  
+}
+.owl-prev{
+  margin-right: 10px !important;
+}
+
+.owl-nav button span{
+    Display: flex !important;
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 9999px !important;
+    border-width: 1px !important;
+    border-color: #0da5be !important;
+    color: var(--color-primary) !important;
+    transition-duration: 300ms !important;
+    box-sizing: border-box !important;
+    padding: 10px !important;
+
+  margin: 0px 10px !important;  
+}
+.owl-nav button span:hover{
+      background-color: var(--color-primary) !important;
+      transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+          color: rgba(255, 255, 255, var(--tw-text-opacity, 1)) !important;
+}
+.the-navbar{
+  position: fixed;
+  top: 20px;
+  right: 0px;
+  left: 0px;
+}
