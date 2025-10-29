@@ -9380,3 +9380,6 @@ salla-product-options [type=checkbox], salla-product-options [type=radio]{backgr
 .the-navbar{
 
 }
+.addToCart{
+  border: 0;
+}
