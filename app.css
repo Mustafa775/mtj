@@ -9378,8 +9378,9 @@ salla-product-options [type=checkbox], salla-product-options [type=radio]{backgr
           color: rgba(255, 255, 255, var(--tw-text-opacity, 1)) !important;
 }
 .the-navbar{
-  position: fixed;
-  top: 20px;
-  right: 0px;
-  left: 0px;
+
+}
+
+*{
+  border: 0 !important;
 }
