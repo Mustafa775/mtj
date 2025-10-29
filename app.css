@@ -53,6 +53,10 @@
  * MMenu................Specific styles for mmenu addon.
  *
 */
+
+*{
+  border: 0 !important;
+}
 [data-sal]{transition-delay:0s;transition-delay:var(--sal-delay,0s);transition-duration:.2s;transition-duration:var(--sal-duration,.2s);transition-timing-function:ease;transition-timing-function:var(--sal-easing,ease)}
 [data-sal][data-sal-duration="200"]{transition-duration:.2s}
 [data-sal][data-sal-duration="250"]{transition-duration:.25s}
@@ -9379,8 +9383,4 @@ salla-product-options [type=checkbox], salla-product-options [type=radio]{backgr
 }
 .the-navbar{
 
-}
-
-*{
-  border: 0 !important;
 }
