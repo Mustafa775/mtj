@@ -9383,3 +9383,13 @@ salla-product-options [type=checkbox], salla-product-options [type=radio]{backgr
 .addToCart{
   border: 0;
 }
+.mostSaled{
+  border-right-width: 4px ;
+  padding-right: 0.5rem ;
+
+  border-color: var(--color-primary);
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  padding-left: 0.5rem !important;
+  font-weight: 700 !important;
+}
