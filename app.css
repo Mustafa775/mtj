@@ -9395,6 +9395,6 @@ salla-product-options [type=checkbox], salla-product-options [type=radio]{backgr
 .discount{
   border: #0da5be solid 1px,
 }
-.ryal{
+.ryal::before{
   content: "\e9bc";
 }
