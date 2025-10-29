@@ -9392,3 +9392,6 @@ salla-product-options [type=checkbox], salla-product-options [type=radio]{backgr
   padding-left: 0.5rem !important;
   font-weight: 700 !important;
 }
+.discount{
+  border: #0d0d0d solid 1px,
+}
