@@ -9396,5 +9396,5 @@ salla-product-options [type=checkbox], salla-product-options [type=radio]{backgr
   border: #0da5be solid 1px,
 }
 .ryal::before{
-  content: "\e9bc";
+  content: "🤑";
 }
